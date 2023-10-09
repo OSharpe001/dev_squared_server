@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Default from "./layout/Default";
 
-function CurrentBlog() {
+export default function CurrentBlog() {
   return (
-    <div>CurrentBlog</div>
-  )
-}
-
-export default CurrentBlog
+    <Default>
+        CurrentBlog
+    </Default>
+  );
+};

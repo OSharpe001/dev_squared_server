@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Default from "./layout/Default";
 
-function HomePage() {
+export default function HomePage() {
   return (
-    <div>HomePage</div>
-  )
-}
-
-export default HomePage
+    <Default>
+        HomePage
+    </Default>
+  );
+};
